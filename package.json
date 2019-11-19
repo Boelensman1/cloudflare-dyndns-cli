@@ -1,0 +1,29 @@
+{
+  "name": "cloudflare-dyndns-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloudflare": "^2.7.0",
+    "commander": "^4.0.1",
+    "enquirer": "^2.3.2",
+    "js-yaml": "^3.13.1",
+    "lowdb": "^1.0.0",
+    "public-ip": "^3.2.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.6.0",
+    "eslint-config-airbnb": "^18.0.1",
+    "eslint-config-prettier": "^6.7.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.16.0",
+    "prettier": "^1.19.1"
+  }
+}
